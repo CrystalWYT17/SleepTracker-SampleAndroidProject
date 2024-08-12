@@ -38,8 +38,10 @@ interface SleepDatabaseDao{
     @Query("DELETE FROM daliy_sleep_quality_table")
     fun clear()
 
+    //    always getting updated data
     @Query("SELECT * FROM daliy_sleep_quality_table ORDER BY nightId DESC")
     fun getAllNights(): LiveData<List<SleepNight>>
+
 
     @Query("SELECT * FROM daliy_sleep_quality_table ORDER BY nightId DESC LIMIT 1")
     fun getTonight():SleepNight?
