@@ -21,7 +21,9 @@ It also uses and builds on the following techniques from previous lessons:
 * Observable state LiveData variables to trigger navigation
 
 For Coroutines, the library used in this course is **ksp** plugin. You can read more [here](https://developer.android.com/build/migrate-to-ksp).
-Libraries are [here](https://github.com/google/ksp/releases)
+
+Libraries are [here](https://github.com/google/ksp/releases).
+
 StackOverFlow: [Room Database](https://stackoverflow.com/questions/46665621/android-room-persistent-appdatabase-impl-does-not-exist?page=1&tab=scoredesc#tab-top)
 
 **I give credits to this course and instructors.**
